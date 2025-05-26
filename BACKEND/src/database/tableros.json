@@ -4,61 +4,16 @@
       "nombre": "A",
       "filas": 3,
       "columnas": 3,
-      "mainTag": {
-        "ID": 1,
-        "listaAcciones": [
-          { "tipo": "Luz" },
-          { "tipo": "Audio" }
-        ],
-        "posterior": 2
-      },
-      "listaTags": [
-        {
-          "ID": 1,
-          "listaAcciones": [
-            { "tipo": "Luz" },
-            { "tipo": "Audio" }
-          ],
-          "posterior": 2
-        },
-        {
-          "ID": 2,
-          "listaAcciones": [
-            { "tipo": "Movimiento" }
-          ],
-          "posterior": null
-        }
-      ]
+      "mainTag": 1,
+      "listaTags": [1,2]
     },
 
-    {
+    { 
       "id": 2,
       "nombre": "B",
-      "filas": 2,
-      "columnas": 4,
-      "mainTag": {
-        "ID": 10,
-        "listaAcciones": [
-          { "tipo": "Movimiento" }
-        ],
-        "posterior": 11
-      },
-      "listaTags": [
-        {
-          "ID": 10,
-          "listaAcciones": [
-            { "tipo": "Movimiento" }
-          ],
-          "posterior": 11
-        },
-        {
-          "ID": 11,
-          "listaAcciones": [
-            { "tipo": "Audio" },
-            { "tipo": "Luz" }
-          ],
-          "posterior": null
-        }
-      ]
+      "filas": 5,
+      "columnas": 7,
+      "mainTag": 3,
+      "listaTags": [3,4,5,6]
     }
   ]
